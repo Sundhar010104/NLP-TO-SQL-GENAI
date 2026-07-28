@@ -1,0 +1,33 @@
+# Environment variables
+.env
+.env.*
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Firebase service account
+*-firebase-adminsdk-*.json
+*.json
+
+.env
+.env.*
+venv/
+.venv/
+__pycache__/
+
+nlp-to-sql-bead4-firebase-adminsdk-fbsvc-4cb1f0914e.json
