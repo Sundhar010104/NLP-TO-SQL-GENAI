@@ -59,8 +59,8 @@ toml==0.10.2
 typing-inspection==0.4.2
 typing_extensions==4.16.0
 tzdata==2026.3
-urllib3==2.7.0
+urllib3==1.26.20
 uvicorn==0.51.0
 watchdog==6.0.0
 websockets==16.1.1
-pyrebase4
+pyrebase4==4.9.0
