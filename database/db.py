@@ -1,17 +1,23 @@
+import os
 import sqlite3
 from sqlalchemy import create_engine
+
 
 
 DATABASE_PATH = "data/database/chatbot.db"
 
 
 def create_database():
+    dir_name = os.path.dirname(DATABASE_PATH)
+    if dir_name:
+        os.makedirs(dir_name, exist_ok=True)
 
     engine = create_engine(
         f"sqlite:///{DATABASE_PATH}"
     )
 
     return engine
+
 
 def save_to_database(df, table_name):
 

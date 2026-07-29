@@ -8,4 +8,12 @@ def ask_gemini(prompt):
         model="gemini-3.6-flash",
         contents=prompt
     )
-    return response.text
+    text = response.text.strip()
+    if text.startswith("```"):
+        lines = text.splitlines()
+        if lines[0].startswith("```"):
+            lines = lines[1:]
+        if lines and lines[-1].startswith("```"):
+            lines = lines[:-1]
+        text = "\n".join(lines).strip()
+    return text

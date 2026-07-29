@@ -290,7 +290,7 @@ if uploaded_file is not None:
 
             st.dataframe(
                 result,
-                width = "stretch"
+                use_container_width=True
             )
             save_current_chat(
                user_id=st.session_state.user_id,
