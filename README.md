@@ -342,9 +342,9 @@ B.Tech Computer Science and Engineering
 
 SRM Institute of Science and Technology
 
-GitHub: https://github.com/YOUR_GITHUB_USERNAME
+GitHub: https://github.com/Sundhar010104
 
-LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+LinkedIn: https://linkedin.com/in/sundhar010104
 
 ---
 
