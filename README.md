@@ -4,7 +4,7 @@ An AI-powered web application that converts **Natural Language into SQL queries*
 
 ## 🌐 Live Demo
 
-🔗 **https://nlp-to-sql-genai-rphnhgbb5qx6dja76lkftl.streamlit.app/**
+🔗 **https://stunning-boba-22ad5c.netlify.app/**
 
 ---
 
